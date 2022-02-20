@@ -5,13 +5,13 @@ Define an integer variable called `mark`.
 Then print different results depending on these conditions:
 
 ```
-if `mark` is more than 80
+if `mark` is more than or equal to 80
     print A
-if `mark` is more than 70 and less than 80
+if `mark` is more than or equal to 70 and less than 80
     print B
-if `mark` is more than 60 and less than 70
+if `mark` is more than or equal to 60 and less than 70
     print C
-if `mark` is more than 50 but less than 60
+if `mark` is more than or equal to 50 but less than 60
     print D
 otherwise
     print F
