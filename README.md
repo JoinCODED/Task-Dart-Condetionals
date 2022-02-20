@@ -1,33 +1,37 @@
-# TASK-NAME
+# Conditionals❓
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+Define an integer variable called `mark`.
 
-## Instructions
-- Fork and clone [this repository](https://github.com/JoinCODED/{REPO_NAME}) to your `Development` folder.
+Then print different results depending on these conditions:
 
-## Objective and end result
-- Write the objective of the task.
-- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+```
+if `mark` is more than 80
+    print A
+if `mark` is more than 70 and less than 80
+    print B
+if `mark` is more than 60 and less than 70
+    print C
+if `mark` is more than 50 but less than 60
+    print D
+otherwise
+    print F
+```
 
-![screenshot](https://tenor.com/xNjE.gif)
+Then verify that the code works correctly for different values of `mark`.
 
+### 🍋 More Practice: FizzBuzz
 
-### 🍋 The basic challenge title
+Define an integer variable called `i`.
 
-- Step 1
-- Step 2
-- Step 3
+```
+if i is divisible by 3 and 5
+    print "fizz buzz"
+if i is divisible by 3
+    print "fizz"
+if i is divisible by 5
+    print "buzz"
+otherwise
+    print i
+```
 
-
-### 🤼‍♂️ The hard challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-
-### 🌶 The Extreme challenge title 
-
-- Step 1
-- Step 2
-- Step 3
+💡Hint: you'll need to use the integer modulo operator `%`.
