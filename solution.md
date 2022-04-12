@@ -59,11 +59,11 @@ void main() {
 int mark = 78;
 if (mark >= 80){
     print("A");
-} else if (mark >= 70 && mark < 80){
+} else if (mark >= 70){
     print("B");
-} else if (mark >= 60 && mark < 70){
+} else if (mark >= 60){
     print("C");
-} else if (mark >= 50 && mark < 60){
+} else if (mark >= 50){
     print("D");
 }
 }
@@ -76,11 +76,11 @@ void main() {
 int mark = 78;
 if (mark >= 80){
     print("A");
-} else if (mark >= 70 && mark < 80){
+} else if (mark >= 70){
     print("B");
-} else if (mark >= 60 && mark < 70){
+} else if (mark >= 60){
     print("C");
-} else if (mark >= 50 && mark < 60){
+} else if (mark >= 50){
     print("D");
 } else {
     print("F");
