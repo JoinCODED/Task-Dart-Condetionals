@@ -1,4 +1,4 @@
-# Conditionals❓
+### 🍋 Conditionals❓
 
 Define an integer variable called `mark`.
 
@@ -19,7 +19,7 @@ otherwise
 
 Then verify that the code works correctly for different values of `mark`.
 
-### 🍋 More Practice: FizzBuzz
+### 🤼‍♂️ More Practice: FizzBuzz
 
 Define an integer variable called `i`.
 
